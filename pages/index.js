@@ -16,7 +16,7 @@ const Home = (props) => (
             <Link href={`/posts/${post.slug}`}>
               <a>{post.title}</a>
             </Link>
-            <img src={post.feature_image} alt={post.title} width={400} height={250} />
+            <Image src={post.feature_image} alt={post.title} width={400} height={250} />
             <p>{post.feature_image}</p>
           </li>
         ))}
