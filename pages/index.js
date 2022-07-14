@@ -17,7 +17,6 @@ const Home = (props) => (
               <a>{post.title}</a>
             </Link>
             <Image src={post.feature_image} alt={post.title} width={400} height={250} />
-            <p>{post.feature_image}</p>
           </li>
         ))}
       </ul>

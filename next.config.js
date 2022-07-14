@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['static.ghost.org'],
+    // loader: 'cloudinary',
+    domains: ['res-5.cloudinary.com', 'static.ghost.org'],
   }
 }
 
